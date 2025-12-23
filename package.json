@@ -1,0 +1,42 @@
+{
+  "name": "n8n-nodes-zoho-books-community",
+  "version": "0.5.0",
+  "description": "n8n community node for Zoho Books (custom, OAuth2-ready)",
+  "author": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "n8n-community-node",
+    "n8n-nodes",
+    "zoho",
+    "zoho-books",
+    "api"
+  ],
+  "dependencies": {
+    "n8n-core": "^1.72.0",
+    "n8n-workflow": "^1.72.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "@types/express": "^4.17.21",
+    "@types/ssh2": "^1.11.13",
+    "nock": "^13.4.0",
+    "typescript": "^5.3.3"
+  },
+  "n8n": {
+    "credentials": [
+      "dist/credentials/ZohoBooksOAuth2Api.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/ZohoBooks.node.js"
+    ]
+  }
+}
+
