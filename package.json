@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-zoho-books-community",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "n8n community node for Zoho Books (custom, OAuth2-ready)",
   "author": "",
   "license": "MIT",
@@ -10,7 +10,8 @@
     "prepare": "npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "nodes/zohoBooks.png"
   ],
   "keywords": [
     "n8n-community-node",

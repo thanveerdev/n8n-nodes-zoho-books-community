@@ -106,7 +106,7 @@ class ZohoBooks {
     description = {
         displayName: 'Zoho Books',
         name: 'zohoBooks',
-        icon: 'file:zohoBooks.svg',
+        icon: 'file:zohoBooks.png',
         group: ['transform'],
         version: 1,
         description: 'Interact with Zoho Books API',
